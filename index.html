@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://use.fontawesome.com/be3c0e0cb7.js"></script>
+  </head>
+  <body>
+      <section>
+        <div class= "col-lg-4 col-md-4 col-sm-2 col-xs-2">
+        </div>
+        <div id="login" class="col-lg-4 col-md-4 col-sm-8 col-xs-8 center-block">
+          <img src="fenixsvg.svg" width="200" />
+          <form id="loginform">
+          <p>
+            <p id="espacio"><label for="user_login">Nombre de usuario<br /></p>
+              <div class="input-group" id="user_login1">
+              <span class="input-group-addon">
+              <i class="fa fa-user" aria-hidden="true"></i></span>
+              <input class="form-control" type="text" name="log" id="user_login" />
+              </div>
+            </label>
+          </p>
+          <p>
+            <p id="espacio"><label for="user_pass">Contraseña<br /></p>
+              <div class="input-group" id="user_pass1">
+              <span class="input-group-addon">
+              <i class="fa fa-unlock-alt" aria-hidden="true"></i></span>
+              <input class="form-control" type="password" name="pwd" id="user_pass"/>
+              </div>
+            </label>
+          </p>
+            <a href="register.html" >
+              <input class="form-control" type="submit" value="Registro" id="registro">
+            </a>
+            <input class="form-control" type="submit" value="Acceder" id="acceder"><br />
+            <p><a href="lostpass.html" title="Recupera tu contraseña perdida" target="_blank" id="lostpass">¿Has perdido tu contraseña?</a></p>
+          </form>
+        </div>
+      </section>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+* {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+section {
+  align-items: center;
+  justify-content: center;
+}
+
+div#login {
+  border: 2px solid grey;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: 10px 10px 5px lightgrey;
+}
+
+#login {
+  display: block;
+  text-align: center;
+  font-weight: lighter;
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+label {
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#espacio {
+  padding-left: 3px;
+  margin: 0;
+  color: #1b3351;
+  font-size: 16px;
+}
+
+#user_login,
+#user_pass {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+i {
+  color: #1b3351;
+}
+
+input {
+  color: black;
+  font-weight: lighter;
+}
+
+form#loginform {
+  align-self: center;
+}
+
+#user_pass1 {
+  width: 90%;
+}
+
+#user_login1 {
+  width: 90%;
+
+}
+
+input#registro {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 1px lightgrey;
+  text-transform: uppercase;
+  width: 45%;
+  display:inline-block;
+}
+
+input#acceder {
+  box-shadow: 2px 2px 1px lightgrey;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 45%;
+  display:inline-block;
+}
+
+#lostpass {
+  color: dimgrey;
+  margin-top: 5px;
+}
