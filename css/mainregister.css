@@ -1,0 +1,99 @@
+* {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+section {
+  align-items: center;
+  justify-content: center;
+}
+
+div#register {
+  border: 2px solid grey;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: 10px 10px 5px lightgrey;
+}
+
+#register {
+  display: block;
+  text-align: center;
+  font-weight: lighter;
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+label {
+  margin: 0;
+}
+
+p#espacio {
+  text-align: center;
+}
+
+#nombre {
+  display: block;
+}
+
+#apellido {
+  display: block;
+  width: 100%;
+}
+
+input {
+  color: black;
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+input#correo {
+  width: 100%;
+}
+
+#terminos {
+  font-size: 10px;
+  transform: scale(0.8);
+  vertical-align: middle;
+  margin: 0;
+  margin-bottom: 1px;
+}
+
+input#crear {
+  box-shadow: 2px 2px 1px lightgrey;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  width: 35%;
+  background-color: #1b3351;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  #labelnombre {
+    margin-right: 0;
+  }
+
+  #labelapellido {
+    margin-left: 0;
+  }
+  #nombre {
+    width: 100%;
+  }
+  #apellido {
+    width: 100%;
+  }
+  #crear {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  #crear {
+    font-size: 9px;
+    padding: 0;
+    float: none;
+  }
+}

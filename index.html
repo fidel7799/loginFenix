@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://use.fontawesome.com/be3c0e0cb7.js"></script>
   </head>
   <body>
@@ -14,7 +14,7 @@
         <div class= "col-lg-4 col-md-4 col-sm-2 col-xs-2">
         </div>
         <div id="login" class="col-lg-4 col-md-4 col-sm-8 col-xs-8 center-block">
-          <img src="fenixsvg.svg" width="200" />
+          <img class="img-responsive center-block" src="fenixsvg.svg" width="200" />
           <form id="loginform">
           <p>
             <p id="espacio"><label for="user_login">Nombre de usuario<br /></p>
@@ -34,11 +34,13 @@
               </div>
             </label>
           </p>
-            <a href="register.html" >
-              <input class="form-control" type="submit" value="Registro" id="registro">
-            </a>
+          <p>
+            <input class="form-control" type="button" onclick="window.open('register.html', 'width=800,height=600')" value="Registro" id="registro">
             <input class="form-control" type="submit" value="Acceder" id="acceder"><br />
-            <p><a href="lostpass.html" title="Recupera tu contraseña perdida" target="_blank" id="lostpass">¿Has perdido tu contraseña?</a></p>
+          </p>
+            <p>
+              <a href="lostpass.html" title="Recupera tu contraseña perdida" target="_blank" id="lostpass">¿Has perdido tu contraseña?</a>
+            </p>
           </form>
         </div>
       </section>
