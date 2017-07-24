@@ -26,6 +26,18 @@ img {
   margin-bottom: 10px;
 }
 
+#register p{
+	margin-top: 1em;
+}
+
+input.invalid, textarea.invalid {
+  border: 1px solid red;
+}
+
+input.valid, textarea.valid {
+  border: 1px solid green;
+}
+
 label {
   margin: 0;
 }
@@ -72,19 +84,6 @@ input#crear {
 }
 
 @media (max-width: 500px) {
-  #labelnombre {
-    margin-right: 0;
-  }
-
-  #labelapellido {
-    margin-left: 0;
-  }
-  #nombre {
-    width: 100%;
-  }
-  #apellido {
-    width: 100%;
-  }
   #crear {
     font-size: 10px;
   }
@@ -94,6 +93,5 @@ input#crear {
   #crear {
     font-size: 9px;
     padding: 0;
-    float: none;
   }
 }
